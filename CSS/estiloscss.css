@@ -1,0 +1,402 @@
+/* -----------INDEX-------------*/
+/* ------------NAVBAR-----------*/
+.nav-bar {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 100px 100px 100px 150px 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  background-color: white;
+  font-family: "cairo", sans-serif;
+  color: #008ac5;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.center-navs {
+  display: flex;
+  color: #008ac5;
+  justify-content: center;
+  align-items: center;
+}
+
+.deco2 {
+  text-decoration: none;
+  color: #008ac5;
+}
+
+.compra {
+  background-color: #0081f8;
+  border-radius: 28px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.compra2 {
+  color: white;
+  text-decoration: none;
+}
+
+.buttonCompra1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*--------FIN NAVBAR-------*/
+
+/*-------- MAIN ----------*/
+.compra-ahora {
+  display: flex;
+  background-color: #00b2ff;
+  height: 46px;
+  justify-content: center;
+  align-items: center;
+}
+.personas-bebiendo {
+  display: flex;
+  height: 500px;
+  width: 100%;
+  background-image: url("../Images/como-beber.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+#id {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: "cairo", sans-serif;
+  color: #1088ad;
+  font-size: 30px;
+}
+
+.button1 {
+  display: flex;
+  background-color: white;
+  border-radius: 24px;
+  flex-direction: column;
+  height: 170px;
+  margin: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 150px;
+  color: #0080a8;
+  font-family: "cairo", sans-serif;
+}
+.button2 {
+  display: flex;
+  background-color: white;
+  border-radius: 24px;
+  flex-direction: column;
+  height: 170px;
+  margin: 25px;
+  margin-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #0080a8;
+  font-family: "cairo";
+  text-decoration: none;
+}
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pes {
+  margin: 0%;
+  color: #747474;
+}
+.mejora {
+  margin-bottom: 5px;
+}
+
+.deco {
+  text-decoration: none;
+  color: black;
+}
+.estilo {
+  font-family: "Cairo";
+  color: white;
+}
+
+.blue-line {
+  background-color: #00b2ff;
+  height: 46px;
+}
+
+.horarios {
+  background-image: url("../Images/gray-texture.jpg");
+  display: flex;
+  height: 384px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  flex-direction: column;
+}
+.pes2 {
+  color: #004e70;
+  font-size: 50px;
+  font-family: "Cairo";
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.pes3 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Cairo";
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+.pes4 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Cairo";
+  margin-top: 0px;
+}
+/* ------------- FIN DEL MAIN ------------- */
+
+/* -------------- FOOTER --------------- */
+
+.footer {
+  background-color: #00b2ff;
+  height: 126px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logos-footer {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  justify-content: center;
+}
+.logos-footer2 {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  justify-content: center;
+}
+
+.footerbar {
+  justify-content: space-between;
+}
+
+.classs {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.classs2 {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.pes5 {
+  color: white;
+  font-family: "Cairo";
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 23px;
+}
+.text {
+  text-decoration: none;
+  color: white;
+  font-family: "Cairo";
+}
+/* ------------ TRANSICIONES ------------- */
+
+.button1:hover {
+  background-color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+  transition: padding 500ms;
+}
+
+.button2:hover {
+  background-color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+  transition: padding 500ms;
+}
+
+/* -------------porque nosotros? -------------- */
+.porque-nosotros {
+  display: flex;
+  background-color: #00b2ff;
+  height: 135px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-family: "Cairo";
+}
+
+.img-mujer {
+  width: 400px;
+  height: 350px;
+}
+
+.cajaprincipal {
+  background-color: white;
+  display: flex;
+  height: 384px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.caja1 {
+  display: flex;
+  height: 350px;
+  margin-top: 25px;
+}
+
+.caja2 {
+  display: flex;
+  width: 400px;
+  height: 350px;
+}
+
+/* ------------------- Productos -------------- */
+
+.product {
+  text-align: center;
+  justify-content: center;
+  color: #0080a8;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Cairo";
+}
+
+.img1 {
+  width: 350px;
+  height: 400px;
+}
+
+.img2 {
+  width: 350px;
+  height: 400px;
+}
+
+.img3 {
+  width: 300px;
+  height: 400px;
+}
+
+/* ------------ BOTON COMPRA AHORA ---------*/
+.btn-3 {
+  background: rgb(0, 172, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover {
+  background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover {
+  color: rgba(2, 126, 251, 1);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+/* -----------------------*/
+
+/* ------- SERVICIOS ------- */
+
+.repartidor {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.repartidor1 {
+  margin-left: 30px;
+}
+
+.chica {
+  width: 300px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+#p {
+  color: #747474;
+  float: left;
+}
+
+.mantenimiento {
+  margin-right: 30px;
+}
